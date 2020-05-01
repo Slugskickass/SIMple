@@ -47,7 +47,7 @@ def combine_image_OFT(image, oft):
 
 filename = '/Users/Ashley/PycharmProjects/SIMple/Data/SLM-SIM_Tetraspeck200_680nm.tif'
 
-image_data = get_image(filename, 9)
+image_data = get_image(filename, 0)
 
 # Generate a PSF
 psf = generate_PSF(1.2, 680, 97, 512)
